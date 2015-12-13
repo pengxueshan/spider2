@@ -7,5 +7,5 @@ var eventproxy = require('eventproxy');
 var targetUrl = 'http://www.baidu.com/';
 superagent.get(targetUrl)
     .end(function(err, res){
-        console.log(err);
+        console.log(res);
     });
